@@ -44,8 +44,7 @@ public class JsonUrl {
     JSONObject json = readJsonFromUrl("https://crosspi.at/xpi/feed/aget.json?id=40&apikey=394c86968bb0c69ff0fe1f482de52829");
     System.out.println(json.toString());
          
-       // JsonObject w = person.get("main").getAsJsonObject();
-        
+               
        System.out.println("ID: " + json.get("id").toString()); 
         System.out.println("Messumgebung: " + json.get("tag").toString());
         
